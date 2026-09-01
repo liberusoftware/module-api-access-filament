@@ -8,7 +8,9 @@ use Filament\Pages\Page;
 
 final class Overview extends Page
 {
+    #[\Override]
     protected string $view = 'api-access-filament::overview';
 
+    #[\Override]
     protected static ?string $title = 'API Access';
 }
